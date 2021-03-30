@@ -53,6 +53,8 @@
   }
   .js-output {
     height: 4rem;
+    padding: 15px;
+    font-family: sans-serif;
   }
   button:hover {
     background-color: #0c0a59;
@@ -60,3 +62,13 @@
     cursor: pointer;
   }
    
+#quoteOutput {
+  color: #F2F2F2;
+  margin-bottom: 15px;
+  
+}
+#authorOutput {
+  color: #FFD3D4;
+  text-align: end;
+  margin-bottom: 10px;
+}
