@@ -9,7 +9,7 @@ QuoteBtn.addEventListener("click", GetQuote)
 
 // function 
 function GetQuote(){
-    fetch("http://quotable.io/random")
+    fetch("https://quotable.io/random")
     .then(res => res.json())
     .then(data => {
         QuoteOutput.innerHTML = `"${data.content}"` ;
